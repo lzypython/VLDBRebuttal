@@ -1,0 +1,472 @@
+[
+    {
+        "case_id": 80,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths do not directly provide information about the language spoken by Egyptian people. However, it is widely known that the majority of people in Egypt speak Arabic.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Egypt -> location.location.contains -> Sidi Barrani",
+                "Egypt -> location.location.contains -> DB320",
+                "Egypt -> location.location.contains -> Naama Bay -> kg.object_profile.prominent_type -> geography.body_of_water"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the language spoken by Egyptian people. Therefore, based on the given paths, I cannot determine the language spoken in Egypt.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Egypt -> location.location.people_born_here -> Nahed El Sebai -> people.person.parents -> Nahed Shawki -> people.person.gender -> Female",
+                "Egypt -> location.location.people_born_here -> Naguib Sawiris -> people.person.nationality -> Egypt -> location.location.people_born_here -> Samah Selim -> people.person.gender -> Female",
+                "Egypt -> location.location.people_born_here -> Nahed El Sebai -> people.person.parents -> Nahed Shawki"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nEgyptian people speak several languages, including:\n\n1. Modern Standard Arabic\n2. Egyptian Arabic\n3. Bedawi Arabic\n4. Arabic Language\n5. Sudanese Spoken Language\n\nThese are the primary languages spoken in Egypt.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Egypt -> location.country.languages_spoken -> Domari Language",
+                "Egypt -> location.country.languages_spoken -> Modern Standard Arabic",
+                "Egypt -> location.country.languages_spoken -> Egyptian Arabic"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "Assistant: Egyptian people speak Arabic, which includes Modern Standard Arabic and Egyptian Arabic. Additionally, Bedawi Arabic is also spoken in some regions of Egypt.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Egypt -> location.country.languages_spoken -> Arabic Language",
+                "Egypt -> location.country.languages_spoken -> Modern Standard Arabic",
+                "Egypt -> location.country.languages_spoken -> Egyptian Arabic"
+            ]
+        },
+        "id": 125,
+        "question": "what language does egyptian people speak?",
+        "answer": [
+            "Modern Standard Arabic"
+        ]
+    },
+    {
+        "case_id": 147,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "user\nThe reasoning paths provided do not directly answer the question about the language spoken in Turkey. However, it is common knowledge that the official language of Turkey is Turkish. Therefore, the answer to the question \"what language Turkey people speak?\" is Turkish.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.location.contains -> Çorum",
+                "Turkey -> location.location.people_born_here -> Ali Ekber Çiçek",
+                "Turkey -> location.country.administrative_divisions -> Amasya Province"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths indicate that people in Turkey speak the Ladino Language.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.country.languages_spoken -> Ladino Language -> language.human_language.countries_spoken_in -> Turkey -> location.location.people_born_here -> Turkan Enver Hanımsultan -> people.person.gender -> Female",
+                "Turkey -> location.country.languages_spoken -> Ladino Language -> language.human_language.countries_spoken_in -> Turkey -> location.location.people_born_here -> Aydoğan Babaoğlu -> people.person.gender -> Male",
+                "Turkey -> location.country.languages_spoken -> Ladino Language -> language.human_language.countries_spoken_in -> Turkey -> location.location.people_born_here -> Gürer Aykal -> people.person.gender -> Male"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe people of Turkey speak the Turkish Language.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.official_language -> Turkish Language",
+                "Turkey",
+                "Turkey -> location.country.languages_spoken -> Ladino Language"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "Assistant: The people of Turkey primarily speak the Turkish Language.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.official_language -> Turkish Language",
+                "Turkey -> location.country.languages_spoken -> Ladino Language"
+            ]
+        },
+        "id": 221,
+        "question": "what language turkey people speak?",
+        "answer": [
+            "Turkish Language"
+        ]
+    },
+    {
+        "case_id": 271,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "user\nThe reasoning paths provided do not contain information about the language spoken in Turkey. Therefore, we cannot determine the language spoken in Turkey based on the given reasoning paths.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.location.contains -> Çorum",
+                "Turkey -> location.location.people_born_here -> Ali Ekber Çiçek",
+                "Turkey -> location.country.administrative_divisions -> Amasya Province"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nLadino Language",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.country.languages_spoken -> Ladino Language",
+                "Turkey -> location.country.second_level_divisions -> Batman Province -> location.administrative_division.country -> Turkey -> location.country.languages_spoken -> Ladino Language",
+                "Turkey -> location.country.languages_spoken -> Ladino Language -> language.human_language.region -> Asia"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nTurkey speaks the Turkish Language.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.official_language -> Turkish Language",
+                "Turkey",
+                "Turkey -> location.country.languages_spoken -> Ladino Language"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nBased on the reasoning paths provided, Turkey speaks the Turkish Language as its official language.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.official_language -> Turkish Language",
+                "Turkey -> location.country.languages_spoken -> Ladino Language"
+            ]
+        },
+        "id": 404,
+        "question": "what kind of language does turkey speak?",
+        "answer": [
+            "Turkish Language"
+        ]
+    },
+    {
+        "case_id": 313,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the current time in Texas, Houston. To answer the question about the current time in Texas, Houston, you would need to consult a current time source, as the given paths only provide information about people born in Houston, places, events, and population numbers.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Houston -> location.location.people_born_here -> Cooper Brannan",
+                "Houston -> location.location.people_born_here -> Jarmon Durisseau-Collins",
+                "Houston -> location.location.people_born_here -> Rick Noriega"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nI'm sorry, but the reasoning paths provided do not contain information about the current time in Texas, Houston. The paths focus on locations, events, people, and other details but do not include any data related to time or timestamps. To answer the question about the current time in Texas, Houston, you would need a source that provides real-time data, such as a time zone converter or a current time API.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Houston -> location.location.events -> 2007 WorldFest Houston -> time.event.locations -> Houston",
+                "Houston -> location.location.events -> 1990 WorldFest Houston -> time.event.locations -> Houston",
+                "Houston -> location.location.events -> 1990 WorldFest Houston"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nTo determine the current time in Houston, Texas, we need to know the current time in the Central Time Zone, since Houston is located in this time zone. However, the provided reasoning paths do not include information about the current time. Typically, the current time can be found on a reliable time source such as a clock, a news website, or an online time service. Without this information, it's not possible to accurately answer the question based on the given reasoning paths.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Houston -> location.location.time_zones -> Central Time Zone",
+                "Houston",
+                "Houston -> location.location.time_zones -> Central Time Zone -> time.time_zone.locations_in_this_time_zone -> Texas"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "system\nTo answer the question \"what time is it in Texas, Houston right now?\", we need to consider the time zone information provided in the reasoning paths.\n\n1. **Houston -> location.location.time_zones -> Central Time Zone**: This tells us that Houston is located in the Central Time Zone.\n2. **Houston -> location.location.time_zones -> Central Time Zone -> time.time_zone.locations_in_this_time_zone -> Texas**: This confirms that Texas is part of the Central Time Zone.\n\nSince Houston is in the Central Time Zone, and Texas is part of the Central Time Zone, the time in Texas, including Houston, would be the same as the time in Houston, assuming no daylight saving time adjustments are in effect. However, it's important to note that different parts of Texas might observe daylight saving time differently, but since the question asks for the time in \"Texas, Houston right now\", and assuming a standard scenario where daylight saving time is not a factor, the time in Texas, including Houston, would be the same as the time in Houston.\n\nTherefore, to provide a specific answer, we would need the current time in Houston. Without that specific information, we can only conclude that the time in Texas, including Houston, is the same as the time in Houston, given",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Houston -> location.location.time_zones -> Central Time Zone",
+                "Houston -> location.location.time_zones -> Central Time Zone -> time.time_zone.locations_in_this_time_zone -> Texas"
+            ]
+        },
+        "id": 463,
+        "question": "what time is it in texas houston right now?",
+        "answer": [
+            "Central Time Zone"
+        ]
+    },
+    {
+        "case_id": 399,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the currency used in Australia in 2012. Therefore, based on the given paths, it is not possible to determine the currency used in Australia in 2012.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Australia -> location.location.contains -> South West Rocks",
+                "Australia -> location.location.containedby -> Australasia",
+                "Australia -> location.location.time_zones -> Australian Eastern Time Zone"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the currency used in Australia in 2012. Therefore, it is not possible to determine the currency used in Australia in 2012 based on the given paths.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Australia -> government.governmental_jurisdiction.agencies -> Australian Department of Resources, Energy and Tourism",
+                "Australia -> location.country.administrative_divisions -> Australian Antarctic Territory",
+                "Australia -> government.governmental_jurisdiction.agencies -> Australian Department of Resources, Energy and Tourism -> government.government_agency.jurisdiction -> Australia -> sports.sport_country.multi_event_tournaments_participated_in -> 2010 Commonwealth Games"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe currency used in Australia in 2012 is the Australian dollar.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Australia -> location.country.currency_used -> Australian dollar",
+                "Australia -> location.country.languages_spoken -> English Language -> language.human_language.main_country -> United States of America -> location.country.currency_used -> United States Dollar",
+                "Australia -> government.governmental_jurisdiction.agencies -> Australian Department of Finance and Deregulation"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant: In 2012, Australia used the Australian dollar as its currency.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Australia -> location.country.currency_used -> Australian dollar"
+            ]
+        },
+        "id": 592,
+        "question": "what currency does australia use 2012?",
+        "answer": [
+            "Australian dollar"
+        ]
+    },
+    {
+        "case_id": 428,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "user\nThe state of Michigan is located in the Eastern Time Zone.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Michigan -> location.location.contains -> Margaret Warner Graduate School of Education and Human Development",
+                "Michigan -> location.location.contains -> Munising",
+                "Michigan -> location.location.contains -> Clarkston"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe state of Michigan is in the Eastern Time Zone.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Michigan -> location.location.contains -> Manistee -> location.location.time_zones -> Eastern Time Zone -> time.time_zone.locations_in_this_time_zone -> Pennsylvania -> location.location.time_zones -> UTC−05:00",
+                "Michigan -> location.location.contains -> Manistee -> location.location.time_zones -> Eastern Time Zone -> time.time_zone.locations_in_this_time_zone -> Georgia -> location.location.time_zones -> UTC−05:00",
+                "Michigan -> location.location.contains -> Manistee -> location.location.time_zones -> Eastern Time Zone"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe state of Michigan is in the Central Time Zone.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Michigan -> location.location.time_zones -> UTC−05:00",
+                "Michigan -> location.location.time_zones -> Eastern Time Zone",
+                "Michigan -> location.location.time_zones -> Central Time Zone"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "answer\nThe state of Michigan is primarily in the Eastern Time Zone (ET) in the United States. However, the westernmost part of the state, including the Upper Peninsula, observes the Central Time Zone (CT) due to its location relative to the time zone boundaries.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "id": 637,
+        "question": "what timezone is the state of michigan and?",
+        "answer": [
+            "Central Time Zone"
+        ]
+    },
+    {
+        "case_id": 488,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe language spoken in Greece is Greek.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Greece -> location.location.contains -> Mount Othrys",
+                "Greece -> location.location.contains -> Kozani",
+                "Greece -> location.location.contains -> Euripus Strait -> kg.object_profile.prominent_type -> geography.body_of_water"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the language spoken in Greece. Therefore, based on the given paths, I cannot determine what language is spoken in Greece.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Greece -> location.location.people_born_here -> Anastasios Gousis -> people.person.gender -> Male",
+                "Greece -> location.location.people_born_here -> Ilias Iliadis -> people.person.nationality -> Greece -> location.location.people_born_here -> Anastasios Gousis -> people.person.gender -> Male",
+                "Greece -> location.location.people_born_here -> Anastasios Gousis -> people.person.place_of_birth -> Greece -> location.location.people_born_here -> Voula Patoulidou -> people.person.gender -> Female"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nGreek Language",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Greece -> location.country.languages_spoken -> Greek Language",
+                "Greece -> location.country.languages_spoken -> Greek Language -> base.schemastaging.context_name.short_name -> Greek",
+                "Greece -> location.country.languages_spoken -> Greek Language -> language.human_language.region -> Europe"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nGreek Language",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Greece -> location.country.languages_spoken -> Greek Language -> base.schemastaging.context_name.short_name -> Greek",
+                "Greece -> location.country.languages_spoken -> Greek Language",
+                "Greece -> location.country.languages_spoken -> Greek Language -> language.human_language.region -> Europe"
+            ]
+        },
+        "id": 727,
+        "question": "what language is spoken in greek?",
+        "answer": [
+            "Greek Language"
+        ]
+    },
+    {
+        "case_id": 780,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the current leader of France in 2010. Therefore, it is not possible to determine the answer based on the given paths.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "France -> location.location.contains -> Reims",
+                "France -> location.location.partially_contains -> Chiers",
+                "France -> location.location.contains -> Dauphiné Alps"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the current leader of France in 2010. The paths focus on geographical and administrative divisions within France, as well as some administrative divisions related to other countries. To answer the question about the current leader of France in 2010, we would need information related to political leadership, which is not available in the given reasoning paths.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "France -> location.country.second_level_divisions -> Eure-et-Loir",
+                "France -> location.country.second_level_divisions -> Doubs",
+                "France -> location.country.administrative_divisions -> Eure"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "system\nThe reasoning paths provided do not contain information about the current leader of France in 2010. To answer this question, we would need to look up historical data on the leadership of France during that time period. As of my last update, the leader of France in 2010 was Nicolas Sarkozy, who was the President of France from 2007 to 2012.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "France",
+                "France -> location.country.second_level_divisions -> Gironde",
+                "France -> location.country.second_level_divisions -> Territoire de Belfort"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nThe reasoning paths provided are not directly applicable to answering the question about the current leader of France in 2010. To answer this question, we need to look at historical facts.\n\nThe current leader of France in 2010 was Nicolas Sarkozy. He served as the President of France from 2007 to 2012.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "id": 2029,
+        "question": "who is the current leader of france 2010?",
+        "answer": [
+            "Nicolas Sarkozy"
+        ]
+    },
+    {
+        "case_id": 789,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe dominant language spoken in Jamaica is English.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Jamaica -> location.location.people_born_here -> Sarah Cooper",
+                "Jamaica -> location.location.people_born_here -> Christine Day",
+                "Jamaica -> location.location.people_born_here -> Robert Robinson -> people.deceased_person.date_of_death -> 1994"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information to determine the dominant language spoken in Jamaica. Therefore, based on the given paths, it is not possible to answer the question about the dominant language spoken in Jamaica.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Jamaica -> location.location.people_born_here -> Peter Cargill -> people.person.nationality -> Jamaica -> location.location.people_born_here -> Conroy Smith -> music.artist.genre -> Reggae",
+                "Jamaica -> location.location.people_born_here -> Peter Cargill -> people.person.nationality -> Jamaica -> location.location.people_born_here -> Gloria Escoffery",
+                "Jamaica -> location.location.people_born_here -> Peter Cargill -> people.person.nationality -> Jamaica -> location.location.people_born_here -> Olive Morris"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe dominant language spoken in Jamaica is Jamaican English.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Jamaica -> location.country.official_language -> Jamaican English",
+                "Jamaica",
+                "Jamaica -> location.country.languages_spoken -> Jamaican Creole English Language"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant\nThe dominant language spoken in Jamaica is Jamaican English.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Jamaica -> location.country.official_language -> Jamaican English",
+                "Jamaica -> location.country.languages_spoken -> Jamaican Creole English Language"
+            ]
+        },
+        "id": 1037,
+        "question": "what is the dominant language spoken in jamaica?",
+        "answer": [
+            "Jamaican English"
+        ]
+    },
+    {
+        "case_id": 948,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nUnitarian Universalists believe in a non-trinitarian approach to religion, emphasizing the inherent worth and dignity of every person, a free and responsible search for truth and meaning, and the use of reason and experience in spiritual growth. They often reject the traditional Christian doctrine of the Trinity and focus on the concept of the divine in a more inclusive and individualized way. Their beliefs are shaped by a variety of spiritual and ethical sources, including world religions, humanist philosophy, and science. They value community, social justice, and the pursuit of a more compassionate and equitable world.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Unitarianism -> religion.religion.notable_figures -> John Adams -> book.author.works_written -> State Of The Union Addresses Of John Adams",
+                "Unitarianism -> religion.religion.notable_figures -> John Quincy Adams -> authority.daylife.topic -> 01kK4Bt2hs0R9",
+                "Unitarianism -> religion.religion.notable_figures -> John Adams -> book.author.works_written -> Adams to Jefferson & Jefferson to Adams"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nUnitarian Universalists believe in a wide range of spiritual and ethical principles, often emphasizing individual freedom, critical thinking, and the inherent worth and dignity of every person. They do not adhere to a single creed but draw from a variety of world religions, spiritual practices, and philosophical sources. Key beliefs include the acceptance of multiple paths to truth, the importance of social justice, and the rejection of a literal interpretation of the Bible. They also often support the concepts of democracy and the separation of church and state.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Unitarianism -> religion.religion.beliefs -> Nontrinitarianism",
+                "Unitarianism -> religion.religion.branched_into -> Unitarian Universalism",
+                "Unitarianism -> religion.religion.beliefs -> Nontrinitarianism -> religion.belief.belief_of -> Unitarianism -> religion.religion.notable_figures -> John Quincy Adams -> people.person.ethnicity -> White people"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nUnitarian Universalists believe in a wide range of spiritual and ethical principles, often emphasizing individual freedom and responsibility, the inherent worth and dignity of every person, and the pursuit of truth and meaning. They do not adhere to a single creed but draw from a variety of world religions, spiritual practices, and philosophical sources. Key beliefs include:\n\n1. **Non-Trinitarianism**: Many Unitarian Universalists hold beliefs that differ from traditional Christian doctrines, such as the rejection of the Trinity, focusing instead on the concept of one God.\n\n2. **Deism**: Some Unitarian Universalists are influenced by Deism, which holds that God created the universe but does not intervene in its workings.\n\n3. **Oneness Pentecostalism**: This belief system, which is a part of the broader Pentecostal movement, emphasizes the unity of God and the Holy Spirit, often in contrast to the traditional Christian doctrine of the Trinity.\n\n4. **Christadelphians**: This group believes in the imminent return of Jesus Christ and the importance of understanding the Bible through a literal interpretation.\n\n5. **Humanism**: Many Unitarian Universalists embrace humanism, which centers on the value and agency of human beings, often without invoking a supernatural basis for",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Unitarianism",
+                "Unitarianism -> religion.religion.beliefs -> Nontrinitarianism",
+                "Unitarianism -> religion.religion.branched_into -> Unitarian Universalism"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant\nUnitarian Universalists believe in a variety of spiritual and ethical principles, often emphasizing individual freedom, reason, and the inherent worth and dignity of every person. They typically do not adhere to a single set of beliefs or dogma, instead promoting a diverse range of perspectives and encouraging personal exploration of the divine. Key aspects of Unitarian Universalism include:\n\n1. **Non-Trinitarianism**: Unitarian Universalists often reject the doctrine of the Trinity, which is central to many Christian denominations. Instead, they may focus on monotheism, emphasizing the belief in one God.\n\n2. **Reason and Science**: They value reason, critical thinking, and the scientific method in understanding the world and the universe.\n\n3. **Ethical Living**: Unitarian Universalists are guided by ethical principles rather than a set of religious commandments. They often emphasize the importance of social justice, peace, and environmental stewardship.\n\n4. **Inclusivity and Diversity**: They welcome people from various religious backgrounds and encourage the exploration of different spiritual paths. This inclusivity is reflected in their motto, \"A free and responsible search for truth and meaning.\"\n\n5. **Freedom of Belief**: Unitarian Universalists respect the right of individuals to hold their own beliefs,",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Unitarianism -> religion.religion.is_part_of -> Christianity -> religion.religion.branched_into -> Mormonism -> religion.religion.types_of_places_of_worship -> Latter Day Saints Temple",
+                "Unitarianism -> religion.religion.is_part_of -> Christianity -> religion.religion.deities -> Jesus Christ",
+                "Unitarianism -> religion.religion.is_part_of -> Christianity -> religion.religion.includes -> Baptists"
+            ]
+        },
+        "id": 1372,
+        "question": "what do unitarian universalist believe?",
+        "answer": [
+            "Nontrinitarianism"
+        ]
+    }
+]

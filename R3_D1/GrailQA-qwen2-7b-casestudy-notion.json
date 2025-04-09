@@ -1,0 +1,474 @@
+[
+    {
+        "case_id": 77,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant: 1",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Light gun -> cvg.cvg_genre.games -> Terminator 2: Judgment Day -> base.wikipedia_infobox.video_game.developer -> Midway Games",
+                "Light gun -> cvg.cvg_genre.games -> Space Pirates -> cvg.game_version.release_date -> 1994",
+                "Light gun -> cvg.cvg_genre.games -> Time Crisis II -> authority.giantbomb.game -> 61-15365"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant: Based on the reasoning paths provided, there are no explicit connections to game compilations in the genre of light gun. The paths focus on individual light gun games and their attributes, such as developers, platforms, and genres, but do not mention compilations. Therefore, based on the given information, we cannot determine the number of game compilations in the genre of light gun.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Light gun -> cvg.cvg_genre.games -> Laser Invasion",
+                "Light gun -> cvg.cvg_genre.games -> Die Hard Trilogy 2: Viva Las Vegas -> cvg.computer_videogame.cvg_genre -> Light gun -> cvg.cvg_genre.games -> Laser Invasion",
+                "Light gun -> cvg.cvg_genre.games -> Die Hard Trilogy 2: Viva Las Vegas -> cvg.computer_videogame.cvg_genre -> Light gun -> cvg.cvg_genre.games -> Laser Invasion -> authority.mobygames.game -> laser-invasion"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant: To determine the number of game compilations in the genre of light gun, we need to identify the unique game compilations that are tagged with the light gun genre from the given reasoning paths. Let's analyze the paths:\n\n1. **Die Hard Trilogy** - This is a game compilation tagged with the light gun genre.\n2. **Lethal Enforcers II: Gun Fighters** - This game is tagged with the light gun genre and is part of a compilation.\n3. **Time Crisis II** - This is another game compilation tagged with the light gun genre.\n4. **Die Hard Trilogy 2: Viva Las Vegas** - This is a game compilation tagged with the light gun genre.\n5. **Crime Patrol 2: Drug Wars** - This game is tagged with the light gun genre, but it's not a compilation.\n6. **Die Hard Trilogy** - This is mentioned again, but it's the same compilation as the first point.\n7. **Corpse Killer** - This game is tagged with the light gun genre, but it's not a compilation.\n8. **Baby Boomer** - This game is tagged with the light gun genre, but it's not a compilation.\n9. **Freedom Force** -",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Light gun -> cvg.cvg_genre.games -> Die Hard Trilogy",
+                "Light gun -> cvg.cvg_genre.games -> Laser Invasion",
+                "Light gun -> cvg.cvg_genre.games -> Lethal Enforcers II: Gun Fighters -> base.wikipedia_infobox.video_game.platforms -> Sega CD"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant: To determine how many game compilations are in the genre of light gun, we need to identify the unique game compilations that are tagged with the light gun genre from the given reasoning paths. Let's analyze the paths:\n\n1. **Lethal Enforcers 3** - This is a game, not a compilation.\n2. **Resident Evil: The Darkside Chronicles** - This is a game, not a compilation.\n3. **Alien 3: The Gun** - This is a game, not a compilation.\n4. **Battle Clash** - This is a game, not a compilation.\n5. **Wild West Guns** - This is a game, not a compilation.\n6. **Corpse Killer** - This is a game, not a compilation.\n7. **Time Crisis II** - This is a game, not a compilation.\n8. **Vampire Night** - This is a game, not a compilation.\n9. **Die Hard Trilogy** - This is a game, not a compilation.\n10. **Marksman Shooting & Trap Shooting** - This is a game, not a compilation.\n11. **Death Race** - This is a game, not a compilation.\n12. **",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Light gun -> cvg.cvg_genre.games -> Lethal Enforcers 3 -> cvg.computer_videogame.cvg_genre -> Shoot 'em up -> cvg.cvg_genre.games -> Resident Evil: The Darkside Chronicles",
+                "Light gun -> cvg.cvg_genre.games -> Alien 3: The Gun",
+                "Light gun -> cvg.cvg_genre.games -> Battle Clash"
+            ]
+        },
+        "id": 2105126005000,
+        "question": "how many game compilations are in the genre of light gun?",
+        "answer": [
+            "2"
+        ]
+    },
+    {
+        "case_id": 110,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "user\nThe reasoning paths provided do not contain information about the political party operating out of Namibia. Therefore, based on the given paths, it is not possible to determine which political party operates out of Namibia.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Namibia -> location.country.fips10_4 -> WA",
+                "Namibia -> location.location.people_born_here -> Roger Katjiteo",
+                "Namibia -> location.location.events -> Caprivi conflict -> time.event.start_date -> 1994"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nBased on the reasoning paths provided, the political parties that operate out of Namibia are:\n\n1. Christian Democratic Party\n2. United Democratic Party\n3. Damara Christian Democratic Party\n4. Christian Democratic Union\n\nThese paths indicate that these political parties have an organizational scope within Namibia, suggesting they operate or are based in the country.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Christian Democratic Party -> government.political_party.ideology -> Christian democracy -> government.political_ideology.political_parties -> Namibia Christian Democratic Party",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> United Democratic Party",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Christian Democratic Party"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nSeveral political parties operate out of Namibia based on the given reasoning paths. Here are a few examples:\n\n1. Republican Party\n2. Namibia Christian Democratic Party\n3. United Democratic Party\n4. Christian Democratic Party\n5. Damara Christian Democratic Party\n6. Herstigte Nasionale Party\n7. Communist Party of Namibia\n8. SWAPO Democrats\n9. All People's Party\n10. Congress of Democrats\n11. United Democratic Front\n12. National Unity Democratic Organisation\n13. Christian Democratic Union\n14. Namibian Economic Freedom Fighters\n15. Namibia Women's Action for Equality Party\n\nThese are just a few of the political parties that operate in Namibia.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Republican Party",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Namibia Christian Democratic Party",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> United Democratic Party"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nBased on the reasoning paths provided, it seems that multiple political parties operate out of Namibia. The paths list several parties including, but not limited to:\n\n- United Democratic Front\n- Communist Party of Namibia\n- Rally for Democracy and Progress\n- Damara Christian Democratic Party\n- Action Christian National\n- National Unity Democratic Organisation\n- SWANU\n- All People's Party\n- IRDNC\n- United Democratic Party\n- NACSO\n- Namibia Women's Action for Equality Party\n- Christian Democratic Party\n- SWAPO Democrats\n- Congress of Democrats\n- Christian Democratic Action for Social Justice\n- Republican Party\n- Herstigte Nasionale Party\n- Namibian Economic Freedom Fighters\n- SWAPO\n- Namibia Christian Democratic Party\n- Christian Democratic Union\n\nTherefore, the political parties that operate out of Namibia, as indicated by the reasoning paths, include the United Democratic Front, Communist Party of Namibia, Rally for Democracy and Progress, and many others listed above.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> United Democratic Front",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Communist Party of Namibia",
+                "Namibia -> organization.organization_scope.organizations_with_this_scope -> Rally for Democracy and Progress"
+            ]
+        },
+        "id": 2102602010000,
+        "question": "what political party operates out of namibia?",
+        "answer": [
+            "Namibian Economic Freedom Fighters"
+        ]
+    },
+    {
+        "case_id": 256,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "Assistant: The Greenwich terminuses are found at New Eltham railway station and Woolwich Arsenal station.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Greenwich -> location.location.contains -> New Eltham railway station",
+                "Greenwich -> location.location.contains -> Woolwich Arsenal station",
+                "Greenwich -> location.location.people_born_here -> James Tarpey -> people.person.date_of_birth -> 1994"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe Greenwich terminus is found at Plumstead railway station.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Greenwich -> location.location.contains -> Greenwich Playhouse -> location.location.containedby -> Greenwich -> location.location.contains -> Plumstead railway station",
+                "Greenwich -> location.location.contains -> Plumstead railway station",
+                "Greenwich -> location.location.containedby -> England -> location.location.contains -> Greenwich -> location.location.contains -> Plumstead railway station"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe Greenwich terminuses are found at the London and Greenwich Railway.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Greenwich -> rail.railway_terminus.railways_terminating_here -> London and Greenwich Railway",
+                "Greenwich -> rail.railway_terminus.railways_terminating_here -> London and Greenwich Railway -> rail.railway.opened -> 1836",
+                "Greenwich -> rail.railway_terminus.railways_terminating_here -> London and Greenwich Railway -> rail.railway.length -> 8.0"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "system\nThe Greenwich terminus is found at the London and Greenwich Railway.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Greenwich -> rail.railway_terminus.railways_terminating_here -> London and Greenwich Railway"
+            ]
+        },
+        "id": 2102375008000,
+        "question": "the greenwich terminuses is found at what railway?",
+        "answer": [
+            "London and Greenwich Railway"
+        ]
+    },
+    {
+        "case_id": 603,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nGER Class S56 belongs to the GER Class Y14 locomotive class.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GER Class Y14",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> British Rail Class 04 -> en -> british_rail_class_04",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant: GER Class S56 belongs to the locomotive class with the UIC classification C n2t.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> LT&SR 51 Class",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> South African Class 6F 4-6-0"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nGER Class S56 belongs to the locomotive class that has a wheel configuration of 0-6-0.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> LT&SR 51 Class",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> South African Class 6F 4-6-0"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant\nGER Class S56 belongs to the locomotive class that is characterized by a 0-6-0 wheel configuration. This class includes various subclasses and specific models such as GNR Class J13, British Rail Class D2/12, and others mentioned in the reasoning paths.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> Metropolitan Railway D Class",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> JGR Class 2120",
+                "GER Class S56 -> rail.steam_locomotive_class.wheel_configuration -> 0-6-0 -> rail.steam_locomotive_wheel_configuration.locomotive_classes -> GNR Class J13 -> rail.locomotive_class.built_by -> Sharp, Stewart and Company -> rail.locomotive_builder.locomotive_classes_built -> South African Class 6C 4-6-0"
+            ]
+        },
+        "id": 2100592000000,
+        "question": "ger class s56 belongs to which locomotive class?",
+        "answer": [
+            "0-6-0"
+        ]
+    },
+    {
+        "case_id": 677,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe Scottish Proverb has the quotation related to \"We'll never know the worth of water till the well go dry.\"",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> media_common.quotation_subject.quotations_about_this_subject -> I believe in the supreme worth of the individual and in his right to life, liberty, and the pursuit of happiness. -> media_common.quotation.author -> John D. Rockefeller -> base.kwebbase.kwtopic.has_sentences -> In 1870, Rockefeller's company was re- organized as the Standard Oil Company, a joint stock corporation.",
+                "We'll never know the worth of water till the well go dry. -> quotationsbook.quote -> 42555",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.source -> Scottish Proverb -> media_common.quotation_source.quotations -> Perfect love cannot be without equality. -> media_common.quotation.subjects -> Equality -> media_common.quotation_subject.quotations_about_this_subject -> The trauma of the Sixties persuaded me that my generation's egalitarianism was a sentimental error. I now see the hierarchical as both beautiful and necessary. Efficiency liberates; egalitarianism tangles, delays, blocks, deadens."
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not mention any inventor related to the quotation \"We'll never know the worth of water till the well go dry.\" The paths focus on identifying the source, subject, and author of the quotation, but do not link it to an inventor. Therefore, based on the given information, there is no inventor associated with this particular quotation.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "We'll never know the worth of water till the well go dry. -> quotationsbook.quote -> 42555",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> quotationsbook.subject -> worth"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThomas Edison",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "We'll never know the worth of water till the well go dry. -> quotationsbook.quote -> 42555",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> quotationsbook.subject -> worth"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant\nThomas Edison",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> media_common.quotation_subject.quotations_about_this_subject -> No one is useless in this world who lightens the burdens of another. -> media_common.quotation.author -> Charles Dickens",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> media_common.quotation_subject.quotations_about_this_subject -> Where quality is the thing sought after, the thing of supreme quality is cheap, whatever the price one has to pay for it. -> media_common.quotation.author -> William James",
+                "We'll never know the worth of water till the well go dry. -> media_common.quotation.subjects -> Worth -> media_common.quotation_subject.quotations_about_this_subject -> The destroyer of weeds, thistles, and thorns is a benefactor whether he soweth grain or not. -> media_common.quotation.author -> Robert G. Ingersoll"
+            ]
+        },
+        "id": 4301654005000,
+        "question": "which inventor has the quotation related to we'll never know the worth of water till the well go dry.?",
+        "answer": [
+            "Thomas Edison"
+        ]
+    },
+    {
+        "case_id": 852,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant: The reasoning paths indicate that rockets have been launched from Cape Canaveral Air Force Station Space Launch Complex 41. However, the specific number of rockets launched from this complex is not directly provided in the reasoning paths. To determine the number, we would need additional information that specifies the count of launches from this particular location. The paths detail various aspects of the launches, such as the rockets used, their manufacturers, destinations, and related events, but do not aggregate the total number of launches.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.missions_launched_here -> New Horizons -> spaceflight.space_mission.destination -> Pluto -> base.wastrology.astrologicalplanet.astrologicalrulership -> Scorpio -> base.wastrology.zodiacsign.related_astronomical_constellation -> Scorpius",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Titan IIIC -> spaceflight.rocket.country_of_origin -> United States of America -> base.locations.countries.planet -> Earth -> base.schemastaging.star_system_body_extra.solar_day -> 1.0",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Titan IIIC -> spaceflight.rocket.manufacturer -> Glenn L. Martin Company -> aviation.aircraft_manufacturer.aircraft_models_made -> Martin S"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant: The number of rockets launched in Launch Complex 41 is 10. This conclusion is reached by considering the unique rockets launched from Cape Canaveral Air Force Station Space Launch Complex 41 across the provided reasoning paths. The rockets mentioned are Atlas V, Titan IV, Titan IIIC, and New Horizons, each counted once as they represent distinct launches.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.number_of_stages -> 2",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.launch_sites -> Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Titan IV -> spaceflight.rocket.number_of_stages -> 2",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Titan IV -> spaceflight.rocket.number_of_stages -> 2"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant: The reasoning paths provided do not directly answer the question about the number of rockets launched in Launch Complex 41. However, we can infer the number of unique rockets launched based on the paths that mention Launch Complex 41 and the specific rockets.\n\nFrom the given paths, we can see that rockets launched from Cape Canaveral Air Force Station Space Launch Complex 41 include:\n\n1. Atlas V\n2. Delta IV\n3. Delta II\n4. Titan IIIC\n5. Titan IV\n6. Kosmos-2I\n7. Kosmos-3M\n8. Satellite Launch Vehicle\n\nThis gives us a total of 8 unique rockets that have been launched from Launch Complex 41 based on the information provided in the reasoning paths.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.number_of_stages -> 2",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.rocket_function -> Launch vehicle -> spaceflight.rocket_function.rockets_supporting_this_function -> Sputnik -> spaceflight.rocket.number_of_stages -> 1",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.rocket_function -> Launch vehicle -> spaceflight.rocket_function.rockets_supporting_this_function -> Delta IV -> spaceflight.rocket.mass -> 733400.0"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "system\nTo answer the question, we need to determine the number of rockets launched from Cape Canaveral Air Force Station Space Launch Complex 41. The reasoning paths provided give us the following information:\n\n1. Cape Canaveral Air Force Station Space Launch Complex 41 is associated with rockets launched here.\n2. Some of the rockets launched from this location are Atlas V rockets.\n3. Atlas V rockets are considered launch vehicles.\n\nHowever, the reasoning paths do not directly provide the number of rockets launched from this location. To find the answer, we would typically need specific data or statistics about the number of launches from Cape Canaveral Air Force Station Space Launch Complex 41, which is not provided in the reasoning paths.\n\nTherefore, based on the given reasoning paths, we cannot determine the exact number of rockets launched in Launch Complex 41.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V",
+                "Cape Canaveral Air Force Station Space Launch Complex 41 -> spaceflight.rocket_launch_site.rockets_launched_here -> Atlas V -> spaceflight.rocket.rocket_function -> Launch vehicle"
+            ]
+        },
+        "id": 2104814005000,
+        "question": "the number of rockets launched in launch complex 41 is how many?",
+        "answer": [
+            "3"
+        ]
+    },
+    {
+        "case_id": 861,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe force is measured using a Newton meter or a dynamometer, which are instruments designed to measure force.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Force -> media_common.quotation_subject.quotations_about_this_subject -> And Tempus thought then that nothing was more worthwhile than what was growing in this whitewashed barracks, where he has come to build a force such as men or gods have never seen -- a force worth reckoning with, if you were of a mind.  And something was of that mind.  And something else opposed it.  He should have expected that.  Battle in the heavens, battle on the earth. -> media_common.quotation.subjects -> Loyalty -> media_common.quotation_subject.quotations_about_this_subject -> \\\"Be polite to all, friendly to none. Be professional. Be ready to kill everyone and everything.\\\"",
+                "Force -> measurement_unit.dimension.units -> Newton -> measurement_unit.unit_of_force.force_in_newtons -> 1.0",
+                "Force -> media_common.quotation_subject.quotations_about_this_subject -> Who were the fools who spread the story that brute force cannot kill ideas? Nothing is easier. And once they are dead they are no more than corpses. -> media_common.quotation.author -> Simone Weil -> influence.influence_node.influenced -> Albert Camus"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Force -> measurement_unit.dimension.instruments -> Force gauge -> measurement_unit.measuring_instrument.dimension_measured -> Force",
+                "Force -> measurement_unit.dimension.instruments -> Force gauge",
+                "Force -> measurement_unit.dimension.instruments -> Force gauge -> measurement_unit.measuring_instrument.dimension_measured -> Force -> measurement_unit.dimension.instruments -> Force gauge -> measurement_unit.measuring_instrument.dimension_measured -> Force"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "Assistant: The instrument used to measure force is a force gauge.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Force -> measurement_unit.dimension.instruments -> Force gauge",
+                "Force"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "Assistant: The instrument used to measure forces is a spring balance or a force gauge.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "id": 2100468006000,
+        "question": "forces is measured by what instrument?",
+        "answer": [
+            "Force gauge"
+        ]
+    },
+    {
+        "case_id": 887,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nBased on the reasoning paths provided, there are no explicit mentions of \"game expansions\" released by Activision Publishing, Inc. The paths detail various games, their publishers, developers, genres, platforms, and release dates, but do not specifically list expansions or expansions of games. Therefore, based on the information given, the number of game expansions released by Activision Publishing, Inc. cannot be determined.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Activision -> cvg.cvg_publisher.games_published -> Doom -> cvg.computer_videogame.publisher -> Midway Games",
+                "Activision -> cvg.cvg_publisher.games_published -> Pitfall 3D: Beyond the Jungle",
+                "Activision -> cvg.cvg_publisher.games_published -> Guitar Hero III: Legends of Rock"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant: Based on the reasoning paths provided, there is no direct information about the number of game expansions released by Activision Publishing, Inc. The paths focus on specific games, their publishers, developers, and release dates, but do not provide a count of expansions. To determine the number of game expansions released by Activision Publishing, Inc., we would need additional data that specifically tracks expansions or expansions related to their published games.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Activision -> cvg.cvg_publisher.game_versions_published -> Ultimate Quake -> cvg.game_version.publisher -> Activision -> cvg.cvg_publisher.game_versions_published -> Marvel Ultimate Alliance 2: Fusion -> cvg.game_version.publisher -> Activision",
+                "Activision -> cvg.cvg_publisher.game_versions_published -> Marvel Ultimate Alliance 2: Fusion -> cvg.game_version.publisher -> Activision",
+                "Activision -> cvg.cvg_publisher.game_versions_published -> Ultimate Quake -> cvg.game_version.publisher -> Activision -> cvg.cvg_publisher.game_versions_published -> Marvel Ultimate Alliance 2: Fusion -> cvg.game_version.game -> Marvel Ultimate Alliance 2"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant: To determine the number of game expansions released by Activision Publishing, Inc., we need to identify the specific expansions from the given reasoning paths. Expansions are typically additional content released for a game after its initial release, often adding new levels, characters, or features.\n\nFrom the reasoning paths, we can identify the following expansions:\n\n1. Marvel Ultimate Alliance 2: Fusion\n2. Marvel: Ultimate Alliance\n3. Tony Hawk's 10\n4. The Quest Trio\n5. Interstate '82\n6. The Activision Decathlon\n7. X-Men: Next Dimension\n8. Spider-Man 2: The Game\n9. Spider-Man 3\n10. Wolfenstein\n11. Rome: Total War\n12. Super Pitfall\n13. Heretic II\n14. Ultimate Spider-Man\n15. Doom II\n\nHowever, some of these entries might not strictly be considered \"expansions\" in the traditional sense, as they could be standalone games or versions of games. For example, \"Marvel Ultimate Alliance 2: Fusion\" could be considered an expansion pack, but \"Marvel Ultimate Alliance\" and \"Marvel: Ultimate Alliance\" might not be, depending on the context.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Activision -> cvg.cvg_publisher.game_versions_published -> The Fifth Element",
+                "Activision",
+                "Activision -> cvg.cvg_publisher.game_versions_published -> Fantastic Four"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "Assistant: To answer the question about the number of game expansions released by Activision Publishing, Inc., we would need to gather information from reliable sources such as official Activision press releases, their website, or reputable gaming databases. Since I don't have real-time access to the internet, I can't provide the most current number. However, I can guide you on how to find this information:\n\n1. **Visit the Official Website**: Go to the official website of Activision Publishing, Inc. They often have a section dedicated to their products where you can find details about their game expansions.\n\n2. **Search for Press Releases**: Look for press releases or news articles that might have announced new expansions. These are usually found in the news or media section of their website.\n\n3. **Check Gaming Databases and Forums**: Websites like Steam, Metacritic, or gaming forums can provide information on all the expansions released by a particular publisher. These platforms often have comprehensive lists of games and their expansions.\n\n4. **Social Media and Official Channels**: Follow Activision on their social media platforms or subscribe to their official YouTube channel. They often announce new releases and expansions there.\n\n5. **Contact Customer Support**: If you're unable to find the information online, you can contact Activ",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "id": 2105409006000,
+        "question": "what is the number of game expansions released by activision publishing, inc.?",
+        "answer": [
+            "1"
+        ]
+    },
+    {
+        "case_id": 930,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "response: Milestone Inc. developed several video game compilations, but the reasoning paths provided do not explicitly list the number of video game compilations developed by Milestone Inc. To accurately answer the question, we would need specific information about the video game compilations developed by Milestone Inc. from the given reasoning paths or additional data. The paths provided detail various aspects of Milestone Inc.'s involvement in the video game industry, including the development of specific games, their platforms, publishers, and genres, but do not directly count the number of compilations.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "MileStone Inc. -> business.business_operation.industry -> Video game industry -> business.industry.companies -> UFO Interactive Games -> cvg.cvg_publisher.game_versions_published -> Dungeon Raiders",
+                "MileStone Inc. -> business.business_operation.industry -> Video game industry -> business.industry.companies -> Midway Games",
+                "MileStone Inc. -> business.business_operation.industry -> Video game industry -> business.industry.companies -> Team Ninja"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant: 2",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "MileStone Inc. -> cvg.cvg_publisher.games_published -> Ultimate Shooting Collection -> base.wikipedia_infobox.video_game.platforms -> Wii -> computer.computer.introduced -> 2006-11-19",
+                "MileStone Inc. -> cvg.cvg_publisher.games_published -> Ultimate Shooting Collection -> base.wikipedia_infobox.video_game.developer -> MileStone Inc.",
+                "MileStone Inc. -> cvg.cvg_publisher.games_published -> Ultimate Shooting Collection -> base.wikipedia_infobox.video_game.developer -> MileStone Inc. -> cvg.cvg_publisher.games_published -> Ultimate Shooting Collection -> cvg.computer_game_compilation.games_included -> Radirgy"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant: 1",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "MileStone Inc. -> cvg.cvg_publisher.games_published -> Ultimate Shooting Collection -> base.wikipedia_infobox.video_game.platforms -> Xbox 360",
+                "MileStone Inc. -> cvg.cvg_developer.game_versions_developed -> Karous -> base.wikipedia_infobox.video_game.platforms -> Nintendo 3DS",
+                "MileStone Inc. -> cvg.cvg_developer.games_developed -> Radirgy -> cvg.computer_videogame.release_date -> 2005-10-13"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant: Milestone Inc. developed two video game compilations:\n\n1. Ultimate Shooting Collection\n2. Torrente\n\nTherefore, the number of video game compilations developed by Milestone Inc. is 2.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "MileStone Inc. -> cvg.cvg_developer.game_versions_developed -> Tank Beat -> cvg.game_version.publisher -> O~3 Entertainment -> cvg.cvg_publisher.game_versions_published -> Konductra -> cvg.game_version.release_date -> 2006-10-19",
+                "MileStone Inc. -> cvg.cvg_developer.game_versions_developed -> Karous",
+                "MileStone Inc. -> cvg.cvg_developer.game_versions_developed -> Tank Beat -> cvg.game_version.publisher -> O~3 Entertainment -> cvg.cvg_publisher.game_versions_published -> Back To Stone -> cvg.computer_videogame.cvg_genre -> Adventure game"
+            ]
+        },
+        "id": 2104496000000,
+        "question": "how many video game compilations were developed by milestone inc.?",
+        "answer": [
+            "1"
+        ]
+    },
+    {
+        "case_id": 979,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant: 1",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Great Britain -> geography.island.island_group -> British Isles -> geography.island_group.islands_in_group -> Ireland -> biology.breed_origin.breeds_originating_here -> Irish Setter",
+                "Great Britain -> location.location.containedby -> Europe -> base.locations.continents.countries_within -> Denmark -> location.country.administrative_divisions -> Greenland",
+                "Great Britain -> location.location.contains -> England -> biology.breed_origin.breeds_originating_here -> Northern Inuit Dog -> base.petbreeds.dog_breed.temperament -> Familial"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "response: 4",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Otterhound -> biology.animal_breed.place_of_origin -> United Kingdom -> biology.breed_origin.breeds_originating_here -> Norwich Terrier -> biology.animal_breed.temperament -> Hardy",
+                "Otterhound -> biology.animal_breed.place_of_origin -> England -> biology.breed_origin.breeds_originating_here -> Border Terrier -> base.petbreeds.dog_breed.temperament -> Even Tempered",
+                "Otterhound -> biology.animal_breed.place_of_origin -> United Kingdom -> biology.breed_origin.breeds_originating_here -> Norwich Terrier -> biology.animal_breed.temperament -> Intelligent -> base.petbreeds.dog_temperament.dog_breeds -> Grand Bleu de Gascogne"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant: 2",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Otterhound -> biology.animal_breed.coloring -> Black & Tan -> biology.breed_coloring.breeds -> Shetland Sheepdog -> base.petbreeds.dog_breed.temperament -> Strong",
+                "Otterhound -> biology.animal_breed.temperament -> Amiable",
+                "Otterhound -> base.petbreeds.dog_breed.family_friendly -> Friendly -> biology.breed_temperament.breeds -> Sussex Spaniel"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "response: 2",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Otterhound -> base.petbreeds.dog_breed.family_friendly -> Friendly -> base.petbreeds.family_friendly.dog_breed -> Mudhol Hound",
+                "Otterhound -> base.petbreeds.dog_breed.family_friendly -> Friendly -> base.petbreeds.family_friendly.dog_breed -> Parson Russell Terrier",
+                "Otterhound -> base.petbreeds.dog_breed.family_friendly -> Friendly -> biology.breed_temperament.breeds -> Beagador"
+            ]
+        },
+        "id": 4303460007000,
+        "question": "how many different breeds from great britain have the same temperament as the otterhound?",
+        "answer": [
+            "2"
+        ]
+    }
+]

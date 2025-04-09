@@ -1,0 +1,76 @@
+[
+    {
+        "case_id": 80,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths do not directly provide information about the language spoken by Egyptian people. However, it is widely known that the majority of people in Egypt speak Arabic.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Egypt -> location.location.contains -> Sidi Barrani",
+                "Egypt -> location.location.contains -> DB320",
+                "Egypt -> location.location.contains -> Naama Bay -> kg.object_profile.prominent_type -> geography.body_of_water"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nEgyptian people speak several languages, including:\n\n1. Modern Standard Arabic\n2. Egyptian Arabic\n3. Bedawi Arabic\n4. Arabic Language\n5. Sudanese Spoken Language\n\nThese are the primary languages spoken in Egypt.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Egypt -> location.country.languages_spoken -> Domari Language",
+                "Egypt -> location.country.languages_spoken -> Modern Standard Arabic",
+                "Egypt -> location.country.languages_spoken -> Egyptian Arabic"
+            ]
+        },
+        "No. 8. SAE-LLMs+ISAR-EEMs": {
+            "llm_answer": "Assistant: Anton van Leeuwenhoek made significant contributions to our knowledge of cells by being one of the first to observe and describe them. He constructed simple microscopes that were far more powerful than those available at the time, allowing him to see microorganisms and the structure of cells for the first time. His detailed observations and descriptions laid the groundwork for the field of microbiology and cell biology.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "No. 10. SAE-EEMs+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths indicate that the Hittite language is associated with the region of Asia. However, the paths do not directly provide information about the language spoken by Egyptian people. Typically, Egyptians speak Arabic.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Egypt -> location.location.people_born_here -> Adel El-Maamour",
+                "Egypt -> location.location.people_born_here -> Samir Sabry",
+                "Egypt -> location.location.people_born_here -> Fayez Sarofim"
+            ]
+        },
+        "No. 11. SAE-LLMs+SBR-SPR": {
+            "llm_answer": "Assistant: Anton van Leeuwenhoek made significant contributions to our knowledge of cells by being one of the first to observe and describe them. He constructed simple microscopes that were far more powerful than those available at the time, allowing him to see microorganisms and the structure of cells for the first time. His detailed observations and descriptions laid the groundwork for the field of microbiology and cell biology.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "No. 12. SBE-PPR+OSAR-EEMs": {
+            "llm_answer": "assistant\nEgyptian people speak several languages, including:\n\n1. Modern Standard Arabic\n2. Egyptian Arabic\n3. Arabic Language\n4. Sudanese Spoken Language\n5. Bedawi Arabic",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Egypt -> location.country.languages_spoken -> Domari Language",
+                "Egypt -> location.country.languages_spoken -> Modern Standard Arabic",
+                "Egypt -> location.country.languages_spoken -> Egyptian Arabic"
+            ]
+        },
+        "No. 14. SBE-PPR+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe Egyptian people primarily speak Arabic.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Egypt -> book.book_subject.works -> Seeing a Large Cat -> book.written_work.original_language -> English Language -> language.human_language.countries_spoken_in -> Sudan -> location.country.languages_spoken -> Arabic, Sudanese Spoken Language",
+                "Egypt -> book.book_subject.works -> Seeing a Large Cat -> book.written_work.original_language -> English Language -> language.human_language.countries_spoken_in -> Sudan -> location.country.languages_spoken -> Arabic Language",
+                "Egypt -> book.book_subject.works -> Seeing a Large Cat -> book.written_work.original_language -> English Language -> language.human_language.countries_spoken_in -> Sudan"
+            ]
+        },
+        "id": 125,
+        "question": "what language does egyptian people speak?",
+        "answer": [
+            "Modern Standard Arabic"
+        ]
+    }
+]

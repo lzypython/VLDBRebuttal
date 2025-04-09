@@ -1,0 +1,241 @@
+[
+    {
+        "case_id": 47,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the location where the author of \"The Papers of Thomas Jefferson, Vol. 23\" passed away. The paths focus on quotations, works written, editions published, and other related information but do not include details about the author's death or final location. Therefore, based on the given reasoning paths, it is not possible to determine the location where the author passed away.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> people.person.quotations -> The main objects of all science, the freedom and happiness of man. [are] the sole objects of all legitimate government.",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> people.person.quotations -> I deem the essential principles of our government.... Equal and exact justice to all men, of whatever state or persuasion, religious or political; ... freedom of religion, freedom of the press, and freedom of person under the protection of the habeas corpus, and trial by juries impartially selected.",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> symbols.name_source.namesakes -> 30928 Jefferson"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the location where Thomas Jefferson, the author of \"The Papers of Thomas Jefferson, Vol. 23\", passed away. The paths focus on details such as the publication date, author, subjects, editions, and ISBN of the book, but do not include any information about Jefferson's place of death.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.publication_date -> 1990",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> book.book_subject.works -> Jefferson -> location.location.containedby -> United States of America"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nCharlottesville",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "The Papers of Thomas Jefferson, Vol. 23",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.publication_date -> 1990",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "Assistant: The author of \"The Papers of Thomas Jefferson, Vol. 23\" passed away in Charlottesville.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> people.deceased_person.place_of_death -> Charlottesville -> location.location.contains -> The Rotunda",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson -> people.deceased_person.place_of_death -> Charlottesville",
+                "The Papers of Thomas Jefferson, Vol. 23 -> book.book_edition.author_editor -> Thomas Jefferson"
+            ]
+        },
+        "id": "WebQTrn-2289_4c8907f02aff64c11c9e2746d451a8d7",
+        "question": "In what location did the author of \"The Papers of Thomas Jefferson, Vol. 23\" pass away?",
+        "answer": [
+            "Charlottesville"
+        ]
+    },
+    {
+        "case_id": 452,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThe given reasoning paths do not provide information about the currency used in the place where the Chihuahua breed originated.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Chihuahua -> base.petbreeds.dog_breed.temperament -> Lively -> biology.breed_temperament.breeds -> Irish Setter",
+                "Chihuahua -> biology.animal_breed.coloring -> Chocolate -> base.foodrecipes.recipe_ingredient.recipe_name -> chocolate",
+                "Chihuahua -> biology.animal_breed.coloring -> Chocolate -> biology.breed_coloring.breeds -> Löwchen -> biology.animal_breed.temperament -> Familial"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the currency used in the place where the Chihuahua breed originated. The paths focus on details such as breed characteristics, colors, related breeds, places of origin, and breed registrations, but do not include any information about currencies. Therefore, based on the given reasoning paths, it is not possible to determine the currency used in the place where the Chihuahua breed originated.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Chihuahua -> biology.animal_breed.coloring -> Chocolate -> food.food.usda_equivalent -> 19120",
+                "Chihuahua -> base.petbreeds.dog_breed.color -> Gold",
+                "Chihuahua -> base.petbreeds.dog_breed.color -> Gold -> biology.breed_coloring.breeds -> Basque Shepherd Dog -> biology.animal_breed.place_of_origin -> France -> biology.breed_origin.breeds_originating_here -> Grand Bleu de Gascogne"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe Chihuahua breed originated in Mexico. The currency used in Mexico is the Mexican Peso.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Chihuahua",
+                "Chihuahua -> biology.animal_breed.place_of_origin -> Mexico",
+                "Chihuahua -> biology.animal_breed.coloring -> Chocolate -> food.food.usda_equivalent -> 19120"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nThe reasoning paths provided indicate that Chihuahuas originated in Mexico. However, the reasoning paths do not provide information about the currency used in Mexico. Therefore, we cannot directly infer the currency used in the place of origin of the Chihuahua breed from the given reasoning paths.\n\nTo answer the question accurately, we would need additional information about the current currency used in Mexico, which is not provided in the reasoning paths. As of my last update, the currency used in Mexico is the Mexican peso (MXN).",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Chihuahua -> biology.animal_breed.place_of_origin -> Mexico"
+            ]
+        },
+        "id": "WebQTest-1361_8f8e6bf5fcc19e4390b3949c9f46244b",
+        "question": "What currency is used in the place were the Chihuahua breed originated?",
+        "answer": [
+            "Mexican peso"
+        ]
+    },
+    {
+        "case_id": 721,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nThomas Paine influenced Whitman's poetry, which was also influenced by William Godwin.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "William Godwin -> people.person.profession -> Journalist -> people.profession.people_with_this_profession -> Walt Whitman -> people.person.quotations -> In the faces of men and women I see God, and in my own face in the glass, I find letters from God dropped in the street, and every one is signed by God's name. And I leave them where they are, for I know that wherever I go, others will punctually come for ever and ever.",
+                "William Godwin -> people.person.profession -> Journalist -> people.profession.people_with_this_profession -> Walt Whitman -> people.person.quotations -> To me every hour of the light and dark is a miracle. Every cubic inch of space is a miracle. -> media_common.quotation.quotationsbook_id -> 26606",
+                "William Godwin -> people.person.profession -> Journalist -> people.profession.people_with_this_profession -> Walt Whitman -> book.author.works_written -> Whitman and Dickinson"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nPercy Bysshe Shelley",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "William Godwin -> influence.influence_node.influenced -> Percy Bysshe Shelley -> influence.influence_node.influenced -> Hart Crane -> influence.influence_node.influenced_by -> Walt Whitman -> people.person.quotations -> What a devil art thou, Poverty! How many desires -- how many aspirations after goodness and truth -- how many noble thoughts, loving wishes toward our fellows, beautiful imaginings thou hast crushed under thy heel, without remorse or pause!",
+                "William Godwin -> influence.influence_node.influenced -> Percy Bysshe Shelley -> influence.influence_node.influenced -> Allen Ginsberg -> influence.influence_node.influenced_by -> Walt Whitman -> people.person.quotations -> What a devil art thou, Poverty! How many desires -- how many aspirations after goodness and truth -- how many noble thoughts, loving wishes toward our fellows, beautiful imaginings thou hast crushed under thy heel, without remorse or pause!",
+                "William Godwin -> influence.influence_node.influenced -> Percy Bysshe Shelley -> influence.influence_node.influenced -> Hart Crane -> influence.influence_node.influenced_by -> Walt Whitman -> book.author.works_written -> Œuvres choisies, poèmes et proses"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nOscar Wilde influenced Whitman's poetry, which in turn was influenced by William Godwin.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "William Godwin -> influence.influence_node.influenced -> Oscar Wilde -> influence.influence_node.influenced -> Walt Whitman -> book.author.works_written -> Whitman, the poet: materials for study",
+                "William Godwin -> influence.influence_node.influenced -> Oscar Wilde -> influence.influence_node.influenced -> Walt Whitman -> people.person.quotations -> Their manners, speech, dress, friendships, -- the freshness and candor of their physiognomy -- the picturesque looseness of their carriage -- their deathless attachment to freedom -- their aversion to anything indecorous or soft or mean -- the practical acknowledgment of the citizens of one state by the citizens of all other states -- the fierceness of their roused resentment -- their curiosity and welcome of novelty -- their self-esteem and wonderful sympathy -- their susceptibility to a slight -- the air they have of persons who never knew how it felt to stand in the presence of superiors -- the fluency of their speech -- their delight in music, a sure symptom of manly tenderness and native elegance of soul -- their good temper and open-handedness -- the terrible significance of their elections, the President's taking off his hat to them, not they to him -- these too are unrhymed poetry. It awaits the gigantic and generous treatment worthy of it. -> media_common.quotation.quotationsbook_id -> 2303",
+                "William Godwin -> influence.influence_node.influenced -> Oscar Wilde -> influence.influence_node.influenced -> Walt Whitman -> people.person.quotations -> Their manners, speech, dress, friendships, -- the freshness and candor of their physiognomy -- the picturesque looseness of their carriage -- their deathless attachment to freedom -- their aversion to anything indecorous or soft or mean -- the practical acknowledgment of the citizens of one state by the citizens of all other states -- the fierceness of their roused resentment -- their curiosity and welcome of novelty -- their self-esteem and wonderful sympathy -- their susceptibility to a slight -- the air they have of persons who never knew how it felt to stand in the presence of superiors -- the fluency of their speech -- their delight in music, a sure symptom of manly tenderness and native elegance of soul -- their good temper and open-handedness -- the terrible significance of their elections, the President's taking off his hat to them, not they to him -- these too are unrhymed poetry. It awaits the gigantic and generous treatment worthy of it."
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "user\nBased on the reasoning paths provided, the answer to the question \"Who influenced Whitman's poetry, that was influenced by William Godwin?\" is:\n\nOscar Wilde influenced Whitman's poetry, and Whitman's poetry was also influenced by William Godwin. Therefore, indirectly, William Godwin influenced Whitman's poetry through Oscar Wilde.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Walt Whitman -> influence.influence_node.influenced_by -> Oscar Wilde",
+                "William Godwin -> influence.influence_node.influenced -> Oscar Wilde -> influence.influence_node.influenced -> Walt Whitman",
+                "William Godwin -> influence.influence_node.influenced -> Oscar Wilde"
+            ]
+        },
+        "id": "WebQTrn-3358_7763719bdd42d5fc4ae4caa4f2769430",
+        "question": "Who influenced Whitman 's poetry, that was influenced by William Godwin?",
+        "answer": [
+            "Oscar Wilde"
+        ]
+    },
+    {
+        "case_id": 824,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nGregor and the Marks of Secret",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Fantasy -> media_common.literary_genre.books_in_this_genre -> Gregor the Overlander -> book.book.editions -> Gregor the Overlander (Underland Chronicles) -> book.book_edition.isbn -> 9780439771344",
+                "Fantasy -> media_common.literary_genre.books_in_this_genre -> Gregor the Overlander -> book.book.editions -> Gregor The Overlander (Underland Chronicles) -> book.book_edition.isfdb_id -> 63162",
+                "Fantasy -> media_common.literary_genre.books_in_this_genre -> Gregor and the Marks of Secret -> book.book_edition.author_editor -> Suzanne Collins -> people.person.children -> Charlie Pryor -> people.person.date_of_birth -> 1994"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe children's book written by Suzanne Collins that falls under the fantasy genre is \"The Underland Chronicles Book Three\".",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Suzanne Collins -> book.author.works_written -> Mockingjay -> book.book.genre -> Speculative fiction -> media_common.media_genre.child_genres -> Fantasy",
+                "Suzanne Collins -> book.author.works_written -> Mockingjay -> book.book.genre -> Speculative fiction -> media_common.media_genre.child_genres -> Fantasy -> media_common.media_genre.child_genres -> Children's Fantasy",
+                "Suzanne Collins -> book.author.book_editions_published -> The Underland Chronicles Book Three -> book.book.genre -> Children's literature"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "user\nGregor and the Prophecy of Bane",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Suzanne Collins -> book.author.works_written -> Mockingjay -> book.book.genre -> Science Fiction -> media_common.media_genre.child_genres -> Sci-Fi & Fantasy",
+                "Suzanne Collins -> book.author.works_written -> Mockingjay -> book.book.genre -> Speculative fiction -> media_common.media_genre.child_genres -> Horror",
+                "Suzanne Collins -> book.author.works_written -> Mockingjay -> book.book.genre -> Young-adult fiction"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "response: Gregor and the Prophecy of Bane",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Suzanne Collins -> book.author.book_editions_published -> Gregor and the Prophecy of Bane -> book.book.genre -> Fantasy",
+                "Children's literature -> media_common.literary_genre.books_in_this_genre -> Gregor and the Prophecy of Bane -> book.book.genre -> Fantasy",
+                "Fantasy -> media_common.literary_genre.books_in_this_genre -> Gregor and the Prophecy of Bane -> book.book.genre -> Children's literature"
+            ]
+        },
+        "id": "WebQTrn-3364_bca6d9e41c575b801dee5bb27c94da6b",
+        "question": "What children's book, written by Suzanne Collins, would fall under the fantasy genre?",
+        "answer": [
+            "Gregor and the Prophecy of Bane"
+        ]
+    },
+    {
+        "case_id": 838,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "assistant\nCanada, like many countries, does not follow a single religion uniformly. However, Christianity is one of the predominant religions in Canada, and The Bible is a central religious text for Christians.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "The Bible -> book.book_subject.works -> Accommodating Christians",
+                "The Bible -> media_common.quotation_source.quotations -> But I say unto you, That whosoever is angry with his brother without a cause shall be in danger of the judgment: and whosoever shall say to his brother, Raca, shall be in danger of the council: but whosoever shall say, Thou fool, shall be in danger of hell fire.",
+                "The Bible -> book.book_subject.works -> The Collected Works of Northrop Frye, Vol. 4: Northrop Frye on Religion"
+            ]
+        },
+        "No. 6. SAE-EEMs+ISAR-EEMs": {
+            "llm_answer": "assistant:\nLutheranism",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> Lutheranism -> religion.religion.texts -> The Bible",
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> Religion -> book.book_subject.works -> Beliefs About the Bible",
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> Lutheranism"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant:\nBased on the reasoning paths provided, it is not explicitly stated what religion Canada follows specifically. However, since \"The Bible\" is mentioned in relation to various religious texts and denominations, it can be inferred that Canada, in this context, could follow Christianity, as \"The Bible\" is the central religious text for Christianity. Christianity encompasses a wide range of denominations, including but not limited to Catholicism, Protestantism, Lutheranism, Anglicanism, Eastern Christianity, World Mission Society Church of God, Eastern Orthodoxy, and others mentioned. Therefore, without more specific information, the most general answer would be that Canada follows Christianity, with \"The Bible\" being a central religious text.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> Mormonism",
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> World Mission Society Church of God",
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> Eastern Christianity"
+            ]
+        },
+        "No. 3. SAE-EEMs+OSAR-LLMs": {
+            "llm_answer": "assistant: Based on the reasoning paths provided, it is not possible to definitively state that Canada follows a specific religion solely based on the presence of a religious text called The Bible. The paths indicate that The Bible is associated with various religions including Catholicism, Protestantism, Jehovah's Witnesses, Lutheranism, Mormonism, Christian and Missionary Alliance, Eastern Christianity, Anglicanism, World Mission Society Church of God, and Oriental Orthodoxy. Therefore, without additional information, it cannot be concluded that Canada follows any one of these religions specifically.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Canada -> book.book_subject.works -> A Northern Nativity -> book.written_work.subjects -> The Bible -> religion.religious_text.religious_text_of -> Catholicism",
+                "The Bible -> religion.religious_text.religious_text_of -> Protestantism",
+                "The Bible -> religion.religious_text.religious_text_of -> Jehovah's Witnesses"
+            ]
+        },
+        "id": "WebQTest-1819_9be8c18e016b713cbb7f7feb6badebc7",
+        "question": "What religion does Canada follow with a religious text called The Bible?",
+        "answer": [
+            "Protestantism",
+            "Catholicism"
+        ]
+    }
+]

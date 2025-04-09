@@ -1,0 +1,76 @@
+[
+    {
+        "case_id": 812,
+        "No. 1. SBE-PPR+SBR-SPR": {
+            "llm_answer": "user\nThe reasoning paths provided do not contain information about the currency to take to Turkey in 2010. To answer this question, we would need information specifically related to the currency used in Turkey during that time, which is not available in the given reasoning paths. Therefore, the output is that the reasoning paths do not provide the necessary information to answer the question about the currency to take to Turkey in 2010.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.location.contains -> Çorum",
+                "Turkey -> location.location.people_born_here -> Ali Ekber Çiçek",
+                "Turkey -> location.country.administrative_divisions -> Amasya Province"
+            ]
+        },
+        "No. 2. SAE-EEMs+OSAR-EEMs": {
+            "llm_answer": "assistant\nThe currency to take to Turkey in 2010 would be the Turkish lira.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.currency_formerly_used -> Turkish lira",
+                "Turkey",
+                "Turkey -> location.country.currency_formerly_used -> Turkish lira -> finance.currency.countries_used -> Northern Cyprus"
+            ]
+        },
+        "No. 8. SAE-LLMs+ISAR-EEMs": {
+            "llm_answer": "",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "No. 10. SAE-EEMs+SBR-SPR": {
+            "llm_answer": "assistant\nThe currency to take to Turkey in 2010 would be the Turkish Lira.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.second_level_divisions -> Hatay Province -> travel.travel_destination.guidebooks -> Travel to Turkey -> travel.guidebook.travel_destinations_covered -> Çorum",
+                "Turkey -> location.country.second_level_divisions -> Amasya Province",
+                "Turkey -> location.country.second_level_divisions -> Defne"
+            ]
+        },
+        "No. 11. SAE-LLMs+SBR-SPR": {
+            "llm_answer": "",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                ""
+            ]
+        },
+        "No. 12. SBE-PPR+OSAR-EEMs": {
+            "llm_answer": "assistant\nIn 2010, the currency to take to Turkey would be the Turkish lira.",
+            "F1": 1.0,
+            "HR": 1,
+            "ReasoningPaths": [
+                "Turkey -> location.country.currency_formerly_used -> Turkish lira",
+                "Turkey",
+                "Turkey -> location.location.people_born_here -> Emrah Uzun -> people.person.nationality -> Germany -> location.country.currency_used -> Euro"
+            ]
+        },
+        "No. 14. SBE-PPR+ISAR-EEMs": {
+            "llm_answer": "assistant\nThe reasoning paths provided do not contain information about the currency to take to Turkey in 2010. The paths focus on geographical locations, their relationships, and some travel-related data, but do not include details about currency or financial matters. Therefore, based on the given paths, it is not possible to determine what currency to take to Turkey in 2010.",
+            "F1": 0,
+            "HR": 0,
+            "ReasoningPaths": [
+                "Turkey -> location.country.iso3166_1_alpha2 -> TR",
+                "Turkey -> location.location.contains -> Edremit -> location.location.containedby -> Van Province -> travel.travel_destination.guidebooks -> Travel to Turkey",
+                "Turkey -> base.dspl.eurostat.unemployment.country -> tr"
+            ]
+        },
+        "id": 1072,
+        "question": "what currency to take to turkey 2010?",
+        "answer": [
+            "Turkish lira"
+        ]
+    }
+]
