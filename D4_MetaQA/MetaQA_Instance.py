@@ -128,11 +128,11 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
     # Hitlist = df[f"HR"].tolist()
     # methodlist = df["Method"].tolist()
     # 一行两列的图,控制间隔
-    fig, ax = plt.subplots(1, 4, figsize=(40, 7))
+    fig, ax = plt.subplots(1, 3, figsize=(30, 7))
 
 
     # for k in range(0,1):
-    for i in range(0,4):
+    for i in range(0,3):
         dataset = "metaQA"
         # if k ==0 and(i==0 or i==1 or i==2 or i==3):
         #     dataset = "metaQA"
@@ -199,15 +199,15 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
         # ax[i].text(-0.5, 0.15, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
 
         ax[i].tick_params(axis='both', which='minor', labelsize=50, width=3)
-        if  i == 2:  # 在第一列和第二列之间插入
-        #     # dataset_name = dataset_names[k * 2 + (i // 2)]  # 计算对应的数据集名称
-            fig.text(
-                ax[i].get_position().x0 ,  # x 位置偏移值，适当调整
-                ax[i].get_position().y0-0.05  ,  # y 位置偏移值，适当调整
-                "MetaQA ",
-                ha="center", va="center", 
-                fontsize=50, fontweight='bold'
-            )
+        # if  i == 2:  # 在第一列和第二列之间插入
+        # #     # dataset_name = dataset_names[k * 2 + (i // 2)]  # 计算对应的数据集名称
+        #     fig.text(
+        #         ax[i].get_position().x0 ,  # x 位置偏移值，适当调整
+        #         ax[i].get_position().y0-0.05  ,  # y 位置偏移值，适当调整
+        #         "MetaQA ",
+        #         ha="center", va="center", 
+        #         fontsize=50, fontweight='bold'
+        #     )
         # elif  k == 1 and (i == 2):  # 在第一列和第二列之间插入
         #     # dataset_name = dataset_names[k * 2 + (i // 2)]  # 计算对应的数据集名称
         #     fig.text(
@@ -254,9 +254,9 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
     # methodlist = ["No."+i for i in methodlist]
     legend_elements = [Patch(color=color, label=method) for color, method in zip(custom_colors, methodlist)]
     plt.subplots_adjust(wspace=0.3, hspace=0.75)  # 设置行和列之间的间隔
-    font_properties = FontProperties(weight='bold', size=28)
+    font_properties = FontProperties(weight='bold', size=25)
     # plt.title(f"{dataset} Generation", fontsize=60, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper center', ncol=5, bbox_to_anchor=(-1.65, 1.8), prop=font_properties,labelspacing=0.05)
+    plt.legend(handles=legend_elements, loc='upper center', ncol=4, bbox_to_anchor=(-0.9, 1.8), prop=font_properties,labelspacing=0.05)
     plt.subplots_adjust(top=0.7, left=0.08, right=0.99,bottom=0.3)
     plt.savefig(saveImgpath, format='pdf')
     # plt.tight_layout()
