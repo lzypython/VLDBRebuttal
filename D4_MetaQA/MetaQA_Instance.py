@@ -291,5 +291,5 @@ if __name__ == "__main__":
     # print("全部处理完成！")
     # for llm in llmlist:
     # for dataset in datasetlist:
-    GenerationImage(f"/back-up/gzy/dataset/VLDB/Instance/NewGeneration/Result",f"metaQA-Generation-Hit@{PATHNUM}.pdf",len(llmlist))
+    GenerationImage(f"/back-up/gzy/dataset/VLDB/Instance/NewGeneration/Result",f"metaQA-Generation-Hit{PATHNUM}.pdf",len(llmlist))
     # print(f"{llm}画图完成！")
