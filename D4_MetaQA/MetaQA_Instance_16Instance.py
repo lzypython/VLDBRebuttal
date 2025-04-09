@@ -139,7 +139,7 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
     # Hitlist = df[f"HR"].tolist()
     # methodlist = df["Method"].tolist()
     # 一行两列的图,控制间隔
-    fig, ax = plt.subplots(1,3, figsize=(33, 7))
+    fig, ax = plt.subplots(1,3, figsize=(33, 8))
 
 
     # for k in range(0,1):
@@ -277,10 +277,10 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
     # methodlist = ["No."+i for i in methodlist]
     legend_elements = [Patch(color=color, label=method) for color, method in zip(custom_colors, methodlist)][:15]
     plt.subplots_adjust(wspace=0.3, hspace=0.75)  # 设置行和列之间的间隔
-    font_properties = FontProperties(weight='bold', size=28)
+    font_properties = FontProperties(weight='bold', size=35)
     # plt.title(f"{dataset} Generation", fontsize=60, fontweight='bold')
-    plt.legend(handles=legend_elements, loc='upper center', ncol=4, bbox_to_anchor=(-0.9, 2), prop=font_properties,labelspacing=0.05)
-    plt.subplots_adjust(top=0.65, left=0.08, right=0.98,bottom=0.3)
+    plt.legend(handles=legend_elements, loc='upper center', ncol=3, bbox_to_anchor=(-0.8, 2.2), prop=font_properties,labelspacing=0.05)
+    plt.subplots_adjust(top=0.6, left=0.08, right=0.98,bottom=0.25)
     plt.savefig(saveImgpath, format='pdf')
     # plt.tight_layout()
     print("画图保存成功：", saveImgpath)
