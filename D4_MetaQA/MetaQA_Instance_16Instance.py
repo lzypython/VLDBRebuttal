@@ -218,7 +218,7 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
         if dataset == "CWQ":
             ax[i].text(-0.5, 0.24, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
         else:
-            ax[i].text(-0.5, 0.24, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
+            ax[i].text(-0.5, 0.2, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
         # ax[i].text(-0.5, 0.15, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
 
         ax[i].tick_params(axis='both', which='minor', labelsize=50, width=3)
@@ -275,12 +275,12 @@ def GenerationImage(rootpath, saveImgpath,modeNUM):
         temp.append(f"No.{i+1}:"+method)
     methodlist = temp
     # methodlist = ["No."+i for i in methodlist]
-    legend_elements = [Patch(color=color, label=method) for color, method in zip(custom_colors, methodlist)]
+    legend_elements = [Patch(color=color, label=method) for color, method in zip(custom_colors, methodlist)][:15]
     plt.subplots_adjust(wspace=0.3, hspace=0.75)  # 设置行和列之间的间隔
     font_properties = FontProperties(weight='bold', size=28)
     # plt.title(f"{dataset} Generation", fontsize=60, fontweight='bold')
-    #plt.legend(handles=legend_elements, loc='upper center', ncol=4, bbox_to_anchor=(-1.6, 1.75), prop=font_properties,labelspacing=0.05)
-    plt.subplots_adjust(top=0.9, left=0.08, right=0.99,bottom=0.3)
+    plt.legend(handles=legend_elements, loc='upper center', ncol=4, bbox_to_anchor=(-0.9, 2), prop=font_properties,labelspacing=0.05)
+    plt.subplots_adjust(top=0.65, left=0.08, right=0.98,bottom=0.3)
     plt.savefig(saveImgpath, format='pdf')
     # plt.tight_layout()
     print("画图保存成功：", saveImgpath)
@@ -314,5 +314,5 @@ if __name__ == "__main__":
     print("全部处理完成！")
     # for llm in llmlist:
     # for dataset in datasetlist:
-    GenerationImage(f"/back-up/gzy/dataset/VLDB/Instance/NewGeneration/Result",f"metaQA-16Instance-Generation-Hit{PATHNUM}-paper.pdf",len(llmlist))
+    GenerationImage(f"/back-up/gzy/dataset/VLDB/Instance/NewGeneration/Result",f"metaQA-16Instance-Generation-Hit{PATHNUM}-response.pdf",len(llmlist))
     # print(f"{llm}画图完成！")
