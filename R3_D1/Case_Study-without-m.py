@@ -133,6 +133,8 @@ def casestudy(PATHNUM,dataset):
                     infos = json.load(f)
                     data = infos["eval_info"][i]
                     id = data["id"]
+                    # if data["question"] !="carl sandburg was featured in what radio episode?":
+                    #     continue
                     # if id not in idlist:
                     #     continue
                     # print(id)
@@ -141,12 +143,12 @@ def casestudy(PATHNUM,dataset):
                     # if len(llm_answer) >50:
                     #     flag = True
                     ReasoningPaths = data["ReasoningPaths"]
-                    paths = [str(path) for path in ReasoningPaths.split("\n")][:3]
+                    paths = [str(path) for path in ReasoningPaths.split("\n")][:6]
                     
-                    for path in paths:
-                        if "m." in path:
-                            flag = True
-                            break
+                    # for path in paths:
+                    #     if "m." in path:
+                    #         flag = True
+                    #         break
                     f1 = data["F1"]
                     Hr = data["HR"]
                 numindex = numindexdic[index]
@@ -157,17 +159,17 @@ def casestudy(PATHNUM,dataset):
                     "ReasoningPaths":paths
                 }
                 templist.append(f1)
-            if flag:
-                continue
+            # if flag:
+            #     continue
 
             temp["id"] = data["id"]
             temp["question"] = data["question"]
             temp["answer"] = data["answers"]
-            # if data["question"] !="what language does egyptian people speak?":
-            #     continue
-            
-            if not(float(templist[0])==0 and float(templist[1])==1 and float(templist[2])==0 and float(templist[3])==1 and float(templist[4])==0 and float(templist[5])==1 and float(templist[6])==0):
+            if data["question"] !="carl sandburg was featured in what radio episode?":
                 continue
+            
+            # if not(float(templist[0])==0 and float(templist[1])==1 and float(templist[2])==0 and float(templist[3])==1 and float(templist[4])==0 and float(templist[5])==1 and float(templist[6])==0):
+            #     continue
             print(templist)
             result.append(temp)
         # 写入json文件中

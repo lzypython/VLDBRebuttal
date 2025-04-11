@@ -1,83 +1,5 @@
 [
     {
-        "case_id": 80,
-        "No. 1. SBE-PPR+SBR-SPR": {
-            "llm_answer": "assistant: Based on the reasoning paths provided, there are no direct connections that link a comic book writer to an educator as a profession. The paths show connections between individuals and their professions, but there is no specific information linking comic book writers to educators. Therefore, the number of comic book writers with a profession of educators cannot be determined from the given reasoning paths.",
-            "F1": 0,
-            "HR": 0,
-            "ReasoningPaths": [
-                "Teacher -> people.profession.people_with_this_profession -> Kate McGregor-Stewart",
-                "Teacher -> people.profession.people_with_this_profession -> Milcho Leviev -> people.deceased_person.date_of_death -> 1994",
-                "Teacher -> people.profession.people_with_this_profession -> Dennis O'Neil"
-            ]
-        },
-        "No. 2. SAE-EEMs+OSAR-EEMs": {
-            "llm_answer": "assistant: 1",
-            "F1": 1.0,
-            "HR": 1,
-            "ReasoningPaths": [
-                "Teacher -> fictional_universe.character_occupation.characters_with_this_occupation -> Kitty Pryde -> comic_books.comic_book_character.created_by -> Chris Claremont",
-                "Teacher -> fictional_universe.character_occupation.characters_with_this_occupation -> Peter Parker",
-                "Teacher"
-            ]
-        },
-        "No. 8. SAE-LLMs+ISAR-EEMs": {
-            "llm_answer": "Assistant: Based on the reasoning paths provided, there are no direct connections to indicate that any of the listed individuals (Bob Stewart, James Morrison, Ken Lerner, Jonathan Douglas Cryer, Michael Bell, Carmen Goic, Dean Jagger, or Tom Goodman-Hill) are comic book writers with a profession of educators. The paths only show that these individuals are associated with the profession of 'Teacher', but do not specify their profession as comic book writers. Therefore, the number of comic book writers with a profession of educators, based on the given reasoning paths, is 0.",
-            "F1": 0,
-            "HR": 0,
-            "ReasoningPaths": [
-                "Teacher -> people.profession.people_with_this_profession -> Bob Stewart",
-                "Teacher -> people.profession.people_with_this_profession -> James Morrison",
-                "Teacher -> people.profession.people_with_this_profession -> Ken Lerner"
-            ]
-        },
-        "No. 10. SAE-EEMs+SBR-SPR": {
-            "llm_answer": "user\nTo answer the question, let's analyze the reasoning paths provided:\n\n1. **Teacher -> people.profession.people_with_this_profession** - This path leads to a list of people who are teachers.\n2. **fictional_universe.character_occupation.characters_with_this_occupation** - This path leads to characters from fictional universes and their occupations.\n\nWe are looking for comic book writers who are also educators. Let's identify the relevant paths:\n\n- **Teacher -> people.profession.people_with_this_profession** - This path gives us a list of teachers. We need to find out how many of these teachers are also comic book writers.\n- **fictional_universe.character_occupation.characters_with_this_occupation** - This path gives us characters from fictional universes and their occupations. We need to find out if any of these characters are both comic book writers and educators.\n\nHowever, the provided reasoning paths do not directly link teachers who are also comic book writers. The paths provided focus on specific individuals and their professions, but there is no clear connection made to identify comic book writers who are educators.\n\nGiven the information provided, we cannot accurately determine how many comic book writers have a profession of educators based on the reasoning paths. The paths do not provide enough information to",
-            "F1": 1.0,
-            "HR": 1,
-            "ReasoningPaths": [
-                "Teacher -> people.profession.people_with_this_profession -> Kate McGregor-Stewart",
-                "Teacher -> people.profession.people_with_this_profession -> Milcho Leviev -> people.deceased_person.date_of_death -> 1994",
-                "Teacher -> people.profession.people_with_this_profession -> Dennis O'Neil"
-            ]
-        },
-        "No. 11. SAE-LLMs+SBR-SPR": {
-            "llm_answer": "Assistant: Based on the provided reasoning paths, there are no direct connections to comic book writers with a profession of educators. The paths listed seem to connect a \"Teacher\" role to various individuals, but without specific information linking these individuals to the profession of comic book writing, we cannot conclude how many comic book writers have a profession of educators. Therefore, the answer to the question is that the number of comic book writers with a profession of educators, based on the given reasoning paths, cannot be determined.",
-            "F1": 0,
-            "HR": 0,
-            "ReasoningPaths": [
-                "Teacher -> people.profession.people_with_this_profession -> Michael Burns",
-                "Teacher -> people.profession.people_with_this_profession -> Rajesh",
-                "Teacher -> people.profession.people_with_this_profession -> Jimmy Haslip"
-            ]
-        },
-        "No. 12. SBE-PPR+OSAR-EEMs": {
-            "llm_answer": "user\nTo answer the question, let's analyze the reasoning paths provided:\n\n1. **Teacher -> fictional_universe.character_occupation.characters_with_this_occupation -> comic_books.comic_book_character.created_by**\n   - This path leads to the creators of comic book characters, not specifically comic book writers.\n\n2. **Teacher -> people.profession.people_with_this_profession -> Screenwriter**\n   - This path leads to people with the profession of screenwriter, not comic book writers.\n\n3. **Teacher -> people.profession.people_with_this_profession -> Comic Book Writer**\n   - This path directly leads to people with the profession of comic book writer.\n\n4. **Teacher -> people.profession.people_with_this_profession -> Researcher**\n   - This path leads to people with the profession of researcher, not comic book writers.\n\n5. **Teacher -> people.profession.people_with_this_profession -> Psychologist**\n   - This path leads to people with the profession of psychologist, not comic book writers.\n\n6. **Teacher -> people.profession.people_with_this_profession -> Education**\n   - This path leads to people with the profession of educators, not specifically comic book writers.\n\nFrom the given reasoning paths, we can see that there is a direct path to identify comic book writers",
-            "F1": 1.0,
-            "HR": 1,
-            "ReasoningPaths": [
-                "Teacher -> fictional_universe.character_occupation.characters_with_this_occupation -> Kitty Pryde -> comic_books.comic_book_character.created_by -> Chris Claremont",
-                "Teacher -> fictional_universe.character_occupation.characters_with_this_occupation -> Peter Parker",
-                "Teacher"
-            ]
-        },
-        "No. 14. SBE-PPR+ISAR-EEMs": {
-            "llm_answer": "assistant: Based on the reasoning paths provided, there are no direct connections that specify individuals with a profession of educators who are also comic book writers. The paths show connections between teachers and other professions, but there is no explicit link to comic book writers within the context of educators. Therefore, based on the given information, the number of comic book writers who have a profession of educators cannot be determined.",
-            "F1": 0,
-            "HR": 0,
-            "ReasoningPaths": [
-                "Teacher -> people.profession.people_with_this_profession -> James Morrison -> people.person.profession -> Poet -> people.profession.specialization_of -> Writer -> people.profession.people_with_this_profession -> Brian Glover",
-                "Teacher -> people.profession.people_with_this_profession -> James Morrison -> people.person.profession -> Poet -> people.profession.specialization_of -> Writer -> people.profession.people_with_this_profession -> David Rasche",
-                "Teacher -> people.profession.people_with_this_profession -> James Morrison -> people.person.profession -> Poet -> people.profession.specialization_of -> Writer -> people.profession.people_with_this_profession -> Clayton Landey"
-            ]
-        },
-        "id": 2103630014000,
-        "question": "how many comic book writer has a profession of educators?",
-        "answer": [
-            "1"
-        ]
-    },
-    {
         "case_id": 511,
         "No. 1. SBE-PPR+SBR-SPR": {
             "llm_answer": "response\nCarl Sandburg was featured in the radio episode \"Lincoln Portrait\" which was performed by the New York Philharmonic with conductor Andre Kostelanetz and narrator Carl Sandburg.",
@@ -86,7 +8,10 @@
             "ReasoningPaths": [
                 "Carl Sandburg -> book.author.works_written -> The complete poems of Carl Sandburg -> book.book_edition.place_of_publication -> New York City -> location.location.people_born_here -> John Chiang",
                 "Carl Sandburg -> music.artist.track -> On Beatniks -> music.recording.releases -> The Beat Generation",
-                "Carl Sandburg -> influence.influence_node.influenced -> Antonella Gambotto-Burke -> book.author.works_written -> Lunch of Blood -> book.written_work.date_of_first_publication -> 1994"
+                "Carl Sandburg -> influence.influence_node.influenced -> Antonella Gambotto-Burke -> book.author.works_written -> Lunch of Blood -> book.written_work.date_of_first_publication -> 1994",
+                "Carl Sandburg -> book.author.works_written -> Chicago Race Riots",
+                "Carl Sandburg -> award.award_winner.awards_won -> m.09jz__n -> award.award_honor.award -> American Academy of Arts and Letters Gold Medal for History -> award.award_category.category_of -> American Academy of Arts and Letters Gold Medals",
+                "Carl Sandburg -> people.person.profession -> Novelist -> people.profession.people_with_this_profession -> Edith Wharton"
             ]
         },
         "No. 2. SAE-EEMs+OSAR-EEMs": {
@@ -96,7 +21,10 @@
             "ReasoningPaths": [
                 "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara",
                 "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.program -> Signature -> broadcast.content.genre -> Documentary film",
-                "Carl Sandburg"
+                "Carl Sandburg",
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.air_date -> 1981-01",
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.program -> Signature",
+                "Carl Sandburg -> imdb.topic.name_id -> nm0761325"
             ]
         },
         "No. 8. SAE-LLMs+ISAR-EEMs": {
@@ -106,7 +34,10 @@
             "ReasoningPaths": [
                 "Ukinrek Maars -> geography.mountain.mountain_type -> Maar",
                 "Ukinrek Maars -> geography.mountain.mountain_type -> Maar -> geography.mountain_type.mountains_of_this_type -> Ukinrek Maars",
-                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Ukinrek Maars"
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Ukinrek Maars",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Maar -> geography.mountain_type.mountains_of_this_type -> Big Hole -> geography.mountain.mountain_type -> Maar",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Maar -> geography.mountain_type.mountains_of_this_type -> Big Hole -> geography.mountain.mountain_type -> Maar -> geography.mountain_type.mountains_of_this_type -> Ukinrek Maars",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Maar -> geography.mountain_type.mountains_of_this_type -> Big Hole -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Ukinrek Maars"
             ]
         },
         "No. 10. SAE-EEMs+SBR-SPR": {
@@ -116,7 +47,10 @@
             "ReasoningPaths": [
                 "Carl Sandburg -> people.person.quotations -> I am an idealist. I don't know where I'm going but I'm on my way.",
                 "Carl Sandburg -> influence.influence_node.influenced -> Antonella Gambotto-Burke -> influence.influence_node.influenced_by -> Gustave Flaubert",
-                "Carl Sandburg -> music.artist.track -> On Beatniks -> music.recording.releases -> The Beat Generation"
+                "Carl Sandburg -> music.artist.track -> On Beatniks -> music.recording.releases -> The Beat Generation",
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.air_date -> 1981-01",
+                "Carl Sandburg",
+                "Carl Sandburg -> influence.influence_node.influenced -> Stuart Dybek -> influence.influence_node.influenced -> Jacob M. Appel"
             ]
         },
         "No. 11. SAE-LLMs+SBR-SPR": {
@@ -126,7 +60,10 @@
             "ReasoningPaths": [
                 "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Cerro Arenales",
                 "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Mount Recheshnoi",
-                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Pico de Orizaba"
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Pico de Orizaba",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Incahuasi",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Colo",
+                "Ukinrek Maars -> geography.mountain.mountain_type -> Volcano -> geography.mountain_type.mountains_of_this_type -> Bolshoy Semyachik"
             ]
         },
         "No. 12. SBE-PPR+OSAR-EEMs": {
@@ -136,7 +73,10 @@
             "ReasoningPaths": [
                 "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara",
                 "Carl Sandburg",
-                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.air_date -> 1981-01"
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.air_date -> 1981-01",
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.program -> Signature",
+                "Carl Sandburg -> imdb.topic.name_id -> nm0761325",
+                "Carl Sandburg -> radio.radio_subject.episodes_with_this_subject -> Carl Sandburg at Connemara -> radio.radio_program_episode.program -> Signature -> broadcast.content.location -> Vancouver"
             ]
         },
         "No. 14. SBE-PPR+ISAR-EEMs": {
@@ -146,7 +86,10 @@
             "ReasoningPaths": [
                 "Carl Sandburg -> music.artist.track -> The Boll Weevil -> music.recording.artist -> Carl Sandburg -> people.person.children -> Helga Sandburg",
                 "Carl Sandburg -> people.person.nationality -> United States of America -> location.location.contains -> Chicago -> book.written_work.author -> Carl Sandburg",
-                "Carl Sandburg -> music.artist.track -> The Boll Weevil -> music.recording.artist -> Carl Sandburg -> people.person.nationality -> United States of America"
+                "Carl Sandburg -> music.artist.track -> The Boll Weevil -> music.recording.artist -> Carl Sandburg -> people.person.nationality -> United States of America",
+                "Carl Sandburg -> music.artist.track -> The Boll Weevil -> music.recording.artist -> Carl Sandburg -> people.person.nationality -> United States of America -> location.location.contains -> Chicago",
+                "Carl Sandburg -> music.artist.track -> The Boll Weevil -> music.recording.artist -> Carl Sandburg -> people.person.children -> Helga Sandburg -> people.person.gender -> Female",
+                "Carl Sandburg -> people.person.nationality -> United States of America -> location.location.contains -> Chicago"
             ]
         },
         "id": 2100081022000,

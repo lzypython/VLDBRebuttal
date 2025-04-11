@@ -101,7 +101,7 @@ def CombinedGenerationImage(HR_excelpath, HR2_excelpath, saveImgpath):
     ]
     
     # 创建1行2列的图形
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(30, 6))
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(30, 8))
     
     # 读取HR数据
     df_hr = pd.read_excel(HR_excelpath)
@@ -183,12 +183,12 @@ def CombinedGenerationImage(HR_excelpath, HR2_excelpath, saveImgpath):
     
     legend_elements = [Patch(color=color, label=method) for color, method in zip(custom_colors, methodlist)]
     plt.subplots_adjust(wspace=0.3, hspace=0.75)
-    font_properties = FontProperties(weight='bold', size=19)
+    font_properties = FontProperties(weight='bold', size=35)
     
     # 将图例放在图形顶部中央
-    fig.legend(handles=legend_elements, loc='upper center', ncol=5, bbox_to_anchor=(0.458, 1), prop=font_properties,labelspacing=0.05)
+    fig.legend(handles=legend_elements, loc='upper center', ncol=3, bbox_to_anchor=(0.458, 1), prop=font_properties,labelspacing=0.05)
     
-    plt.subplots_adjust(top=0.75, left=0.08, right=0.9,bottom=0.1)
+    plt.subplots_adjust(top=0.55, left=0.08, right=0.9,bottom=0.22)
     plt.savefig(saveImgpath, format='pdf', bbox_inches='tight')
     print("画图保存成功：", saveImgpath)
 
@@ -216,5 +216,5 @@ if __name__ == "__main__":
     CombinedGenerationImage(
         f"CWQ-qwen2-70b-@32-HR.xlsx",
         f"CWQ-qwen2-70b-@32-HR2.xlsx",
-        f"CWQ-Hits@1-Judge@1-combined.pdf"
+        f"CWQ-Hits1-Judge1-combined.pdf"
     )
