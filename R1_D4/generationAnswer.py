@@ -181,14 +181,17 @@ def GenerationImage(rootpath, saveImgpath):
                     linewidth=4, alpha=1
                 )
             ax[i].set_xticks(x,)
-            ax[i].set_xlabel(xlabelname, fontsize=35, fontweight='bold')
-            ax[i].set_ylabel(f"F1", fontsize=40, fontweight='bold')
+            ax[i].set_xlabel(xlabelname, fontsize=40, fontweight='bold')
+            ax[i].set_ylabel(f"F1", fontsize=50, fontweight='bold')
             # 隐藏 X 轴刻度和标签
             ax[i].tick_params(axis='x', which='both', length=0)
             # ax[i].tick_params(axis='x', which='both', length=0)  # 隐藏刻度短线
-            ax[i].set_xticklabels(range(1,16))  # 隐藏 X 轴标签
+            ax[i].set_xticklabels(range(1,16),fontweight='bold')  # 隐藏 X 轴标签
             ax[i].tick_params(axis='x', which='major', labelsize=35, width=3,length=10,rotation=55)
             ax[i].tick_params(axis='y', which='major', labelsize=30, width=3,length=20)
+            y_ticks = ax[i].get_yticks()  
+            # 使用 round() 进行四舍五入处理  
+            ax[i].set_yticklabels([round(tick, 2) for tick in y_ticks],fontweight='bold') 
             ax[i].xaxis.labelpad = 10
             ax[i].text(-0.5, 0.1, "No.", ha='right', va='center', fontsize=35, fontweight='bold') 
 

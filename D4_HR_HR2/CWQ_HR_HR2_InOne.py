@@ -146,7 +146,7 @@ def CombinedGenerationImage(HR_excelpath, HR2_excelpath, saveImgpath):
     ax1.tick_params(axis='x', which='major', labelsize=40, width=3,length=20,rotation=60)
     ax1.tick_params(axis='y', which='major', labelsize=50, width=3,length=20)
     ax1.xaxis.labelpad = 10
-    ax1.text(-0.5, 0.26, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
+    ax1.text(-0.5, 0.2, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
     ax1.tick_params(axis='both', which='minor', labelsize=50, width=3)
     
     # 绘制HR2图表
@@ -172,7 +172,7 @@ def CombinedGenerationImage(HR_excelpath, HR2_excelpath, saveImgpath):
     ax2.tick_params(axis='x', which='major', labelsize=40, width=3,length=20,rotation=60)
     ax2.tick_params(axis='y', which='major', labelsize=50, width=3,length=20)
     ax2.xaxis.labelpad = 10
-    ax2.text(-0.5, 0.26, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
+    ax2.text(-0.5, 0.2, "No.", ha='right', va='center', fontsize=40, fontweight='bold')
     ax2.tick_params(axis='both', which='minor', labelsize=50, width=3)
     
     # 创建共同的图例

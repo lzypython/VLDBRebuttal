@@ -176,17 +176,23 @@ def GenerationImage(rootpath, saveImgpath):
                     linewidth=4, alpha=1
                 )
             ax[i].set_xticks(x,)
-            ax[i].set_xlabel(xlabelname, fontsize=35, fontweight='bold')
+            ax[i].set_xlabel(xlabelname, fontsize=40, fontweight='bold')
             # 设置居中对齐
 
-            ax[i].set_ylabel(f"Hits@1", fontsize=35, fontweight='bold')
+            ax[i].set_ylabel(f"Hits@1", fontsize=45, fontweight='bold')
             ax[i].yaxis.set_label_coords(-0.2, 0.4) 
             # 隐藏 X 轴刻度和标签
             ax[i].tick_params(axis='x', which='both', length=0)
             # ax[i].tick_params(axis='x', which='both', length=0)  # 隐藏刻度短线
-            ax[i].set_xticklabels(range(1,16))  # 隐藏 X 轴标签
+            ax[i].set_xticklabels(range(1,16),fontweight='bold') 
+            # ax[i].set_yticks(np.arange(0.2, 0.8, 0.1), fontweight='bold')
             ax[i].tick_params(axis='x', which='major', labelsize=35, width=3,length=10,rotation=55)
             ax[i].tick_params(axis='y', which='major', labelsize=30, width=3,length=20)
+            # ax[i].tick_params(axis='y', which='major', labelsize=30, width=3, length=20)  
+            y_ticks = ax[i].get_yticks()  
+            # 使用 round() 进行四舍五入处理  
+            ax[i].set_yticklabels([round(tick, 2) for tick in y_ticks],fontweight='bold') 
+            # ax[i].set_yticklabels(ax[i].get_yticks(), )  
             ax[i].xaxis.labelpad = 10
             ax[i].text(-0.35, 0.1, "No.", ha='right', va='center', fontsize=35, fontweight='bold') 
 
